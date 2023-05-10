@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+    <title>GATRIX</title>
+    <link rel="stylesheet" href="index1.css"></link>
+  </head>
+  <body>
+      <div class="main">
+        <div class="navbar">
+          <div class="icon">
+            <h2 class="logo">GaTRiX</h2>
+          </div>
+
+          <div class="menu">
+            <ul>
+              <li class="active"><a href="#">HOME</a></li>
+              <li><a href="#">ABOUT</a>
+                <div class="sub-menu-1">
+                  <ul>
+                    <li><a href="#">Vision</a></li>
+                    <li><a href="#">Mission</a></li>
+                    <li><a href="#">Upgrade</a></li>
+                  </ul>
+                </div>
+              
+              </li>
+               <li><a href="#">SERVICE</a></li>
+              <li><a href="#">CONTACT</a></li>
+              <li><a href="/home/prondubuisi/Documents/wel.html">NEXT</a></li>
+            </ul>
+          </div>
+
+          <div class="search">
+            <input class="srch" type="search" name="" placeholder="Type To Search">
+            <a href="#"> <button class="btn second">Search</button></a>
+          </div>
+
+        
+        </div>
+        <div class="content">
+          <h1 class="h1">Science & <br><span>Field</span> <br>Assessment</h1>
+          <p class="par">We ensure the frequent assessment of technology usage <br>and provide programmes that help the <br class="mn-1">aspirants to be enlightened. One can be equipped with <br class="mn">the right knowlegde and understanding <br class="mn-2">of the electronical world that deals with the use <br class="mn">of AI and sensors to solve advanced problems. </p>
+
+          <button class="cn"><a href="https://wa.link/tcqrqx">JOIN US NOW!</a></button>
+          
+          
+          <div class="form">
+            <h2>Login Here</h2>
+            <input type="email" name="email" placeholder="Enter Email Here" id="email">
+            <input type="password" name="" placeholder="Enter Password Here" id="password">
+            <button class="btnn" onclick="auth()">Login</button>
+
+            <p class="link">Don't have an account<br>
+            <a href="#" onclick="">Sign up</a>here</a></p>
+
+            <span class="fa fa-icons">
+              <i class="fa fa-facebook" style="font-size:120px;" href="#"></i>
+              <a href="#"><ion-icon name="logo-instagram"></ion-icon></a>
+              <a href="#"><ion-icon name="logo-twitter "></ion-icon></a>
+              <a href="#"><ion-icon name="logo-google"></ion-icon></a>
+              <a href="#"><ion-icon name="logo-skype"></ion-icon></a>
+            </span>
+
+
+          </div>
+       
+       </div>
+
+         
+
+        </div>
+   </div>
+   <script>
+    function auth(){
+      var email = document.getElementById("email"). value;
+      var password = document.getElementById("password"). value;
+      if(email=="" && password==""){
+        window.location.assign("form.html")
+        alert ("Login Successfully")
+      }
+      else {
+        alert ("SignUp Now!");
+        window.location.assign("#")
+      }
+    }
+   </script>
+  </body>
+</html>
